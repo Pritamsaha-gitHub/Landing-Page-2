@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+li{
+    list-style: none;
+}
+
+.Main{
+    background: url("https://images.wallpaperscraft.com/image/single/iceberg_ice_snow_130985_3840x2160.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    filter: opacity(0.8);
+}
+
+.nav{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+} 
+
+.tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.B{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(18, 234, 18);
+}
+.L{
+    font-size: 16px;
+    color: yellow;
+}
+.com{
+    padding: 5px 28px;
+    margin: 10px;
+    background-color: transparent;
+    color: rgb(237, 6, 44);
+    border: 2px solid white;
+}
+.headline{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    left: 30%;
+    top: 35%;  
+    width: 45%;
+    
+}
+.mid1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.c1{
+    border-bottom: 1px solid rgb(14, 212, 238);
+}
